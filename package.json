@@ -1,0 +1,25 @@
+{
+  "name": "toolkit-bun",
+  "version": "1.0.0",
+  "description": "Packlify starter toolkit for Bun applications",
+  "main": "index.ts",
+  "scripts": {
+    "start": "NODE_ENV=production bun index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packlify/toolkit-bun.git"
+  },
+  "author": "Lucas Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/packlify/toolkit-bun/issues"
+  },
+  "homepage": "https://github.com/packlify/toolkit-bun#readme",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
